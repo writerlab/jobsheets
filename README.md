@@ -46,7 +46,7 @@ from buku.views import buku
 
 urlpatterns = [
   ...
-  path('buku', buku),
+  path('buku/', buku),
 ]
 ```
 
