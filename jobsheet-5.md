@@ -59,5 +59,7 @@ Silakan buat Views dan Template untuk menampilkan halaman:
 - Penulis
 - Penerbit
 - Laporan
+
 ---
+
 **TERUSLAH MENGULANG SAMPAI MENDARAH DAGING, KAMU AKAN TERBIASA DAN BISA.**
