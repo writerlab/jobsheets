@@ -51,7 +51,10 @@ Buka kembali ```buku.html``` dan tambahkan filter ```upper``` pada variable judu
 Refresh/F5 halaman dan lihat perubahannya.
 
 ### 3. Tag: untuk logic, looping, dan lain-lain.
-Bentuk umum: **{% ... %}**
+Bentuk umum: 
+```python
+{% tag %}
+```
 
 Buka kembali ```buku.html``` dan tambahkan baris berikut.
 
