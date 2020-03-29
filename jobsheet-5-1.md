@@ -55,7 +55,7 @@ Bentuk umum: ```{% tag %}```
 
 Buka kembali ```buku.html``` dan tambahkan baris berikut.
 
-```python
+```html
 ...
 <body>
 
