@@ -52,7 +52,7 @@ Refresh/F5 halaman dan lihat perubahannya.
 
 ### 3. Tag: untuk logic, looping, dan lain-lain.
 Bentuk umum: 
-```python
+```html
 {% tag %}
 ```
 
