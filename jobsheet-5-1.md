@@ -3,7 +3,10 @@
 
 Bahasa template pada django terbagi menjadi 3:
 #### 1. Substitusi variable: mencetak sebuah variable dari view
-Bentuk umum: ```{{ nama }}``` atau ```{{ kelas }}``` atau ```{{ judul_buku }}``` dan lain-lain.
+Bentuk umum: 
+```
+{{ nama }}
+```
 
 Buka ```views.py```, tambahkan beberapa variable  didalam view ```buku()``` seperti berikut.
 ```python
@@ -21,7 +24,7 @@ def buku(request):
 ```
 buka ```buku.html``` dan ubah baris judul **DATA BUKU** dengan variable ```judul``` dari views ```buku()```.
 
-```html
+```
 ...
 <body>
   
