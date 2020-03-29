@@ -57,7 +57,7 @@ Refresh/F5 halaman dan lihat perubahannya.
 ### 3. Tag: untuk logic, looping, dan lain-lain.
 Bentuk umum: 
 
-    {% tag %}
+      {% tag %}
 
 Buka kembali ```buku.html``` dan tambahkan baris berikut.
 
