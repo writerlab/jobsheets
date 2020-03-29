@@ -4,9 +4,8 @@
 Bahasa template pada django terbagi menjadi 3:
 #### 1. Substitusi variable: mencetak sebuah variable dari view
 Bentuk umum: 
-```
-{{ nama }}
-```
+
+    {{ nama }}
 
 Buka ```views.py```, tambahkan beberapa variable  didalam view ```buku()``` seperti berikut.
 ```python
@@ -24,7 +23,7 @@ def buku(request):
 ```
 buka ```buku.html``` dan ubah baris judul **DATA BUKU** dengan variable ```judul``` dari views ```buku()```.
 
-```
+```html
 ...
 <body>
   
@@ -38,7 +37,9 @@ Jalankan server dan lihat perubahannya.
 
 
 ### 2. Filter: Memodifikasi variable
-Bentuk umum: ```{{ nama|upper }}```
+Bentuk umum: 
+
+    {{ nama|upper }}
 
 Buka kembali ```buku.html``` dan tambahkan filter ```upper``` pada variable judul seperti berikut.
 
@@ -54,7 +55,9 @@ Buka kembali ```buku.html``` dan tambahkan filter ```upper``` pada variable judu
 Refresh/F5 halaman dan lihat perubahannya.
 
 ### 3. Tag: untuk logic, looping, dan lain-lain.
-Bentuk umum: ```{ % tag %}```
+Bentuk umum: 
+
+    {% tag %}
 
 Buka kembali ```buku.html``` dan tambahkan baris berikut.
 
