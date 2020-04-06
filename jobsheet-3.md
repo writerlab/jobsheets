@@ -4,7 +4,7 @@ Buka projek menggunakan Text editor. Dalam *jobsheet* ini menggunakan [Visual St
 
 Buka terminal.
 ```bash
-cd perpus
+cd Desktop\perpus
 ```
 
 ```bash

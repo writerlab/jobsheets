@@ -2,7 +2,14 @@
 **APLIKASI PERPUSTAKAAN** akan menjadi judul projek dalam menempuh materi ini. Judul projek ini bersifat lanjutan dan akan terus digunakan sampai materi selesai.
 
 ## Membuat Projek
-Buka terminal dan buatlah projek dengan nama ```perpus``` menggunakan ```django-admin```.
+Kita akan simpan projek di ```Desktop```.
+Buka terminal dan masuk ke Desktop.
+
+```bash
+cd Desktop
+```
+
+Buatlah projek dengan nama ```perpus``` menggunakan ```django-admin```.
 
 ```bash
 django-admin startproject perpus
